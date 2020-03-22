@@ -13,7 +13,7 @@ import tech.qijin.util4j.web.pojo.ResultVo;
  */
 @Slf4j
 @RestController
-@RequestMapping("/api/v1/me/uploader/base")
+@RequestMapping("/api/v1/me/uploader")
 public class BaseController {
     @GetMapping("/alive")
     public ResultVo alive() {

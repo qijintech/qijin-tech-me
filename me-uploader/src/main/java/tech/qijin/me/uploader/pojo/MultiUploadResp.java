@@ -1,12 +1,12 @@
-package tech.qijin.me.uploader.service.uploader;
+package tech.qijin.me.uploader.pojo;
 
 import lombok.Data;
 
 /**
  * @author michealyang
- * @date 2019-11-21
+ * @date 2020-03-22
  * @relax: 开始眼保健操 ←_← ↓_↓ →_→ ↑_↑
  */
 @Data
-public class UploaderRes {
+public class MultiUploadResp {
 }

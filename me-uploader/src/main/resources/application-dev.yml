@@ -1,8 +1,28 @@
 server:
-  port: 8080
+  port: 15000
 
 logging:
   config: classpath:log4j2-dev.xml
+
+me:
+  uploader:
+    processor: cos
+sdk:
+  tencent:
+    cloud:
+      host: http://file.qijin.tech
+      bucket: file-1300635595
+      region: ap-chengdu
+      routes[0]:
+        scene: file
+        host: http://file.qijin.tech
+        bucket: file-1300635595
+        region: ap-chengdu
+      routes[1]:
+        scene: img
+        host: http://img.qijin.tech
+        bucket: img-1300635595
+        region: ap-beijing
 
 spring:
   profiles:
