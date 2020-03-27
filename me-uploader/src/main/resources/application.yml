@@ -1,3 +1,5 @@
+server:
+  port: 15000
 # profile config
 # 参考地址: https://www.baeldung.com/spring-profiles
 spring:
